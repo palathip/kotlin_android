@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/action_more"
+        android:icon="@drawable/dota"
+        android:title="MORE"
+        app:showAsAction="always">
+
+        <menu>
+
+            <item
+                android:id="@+id/act1"
+                android:icon="@drawable/help_center"
+                android:title="More 1"
+                app:showAsAction="ifRoom"/>
+
+            <item
+                android:id="@+id/act2"
+                android:icon="@drawable/cancel_request_copy_4"
+                android:title="More 2"
+                app:showAsAction="ifRoom"/>
+
+        </menu>
+
+    </item>
+
+</menu>
